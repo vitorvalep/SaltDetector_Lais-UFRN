@@ -1,13 +1,15 @@
 # SaltDetector_Lais-UFRN
 
 Projeto foi feito como parte da seleção para bolsista do Laboratório de Inovação Tecnológica em Saúde.
-Este projeto consiste em um hardware capaz de identificar a presença de sal ou açúcar em água. Para isso o projeto foi dividido em 3 partes
+Este projeto consiste em um hardware capaz de identificar a presença de sal ou açúcar em água. Para isso o projeto foi dividido em 4 partes
 
 1 - Simulação de parte do projeto utilizando a ferramenta tinkerCAD e plataforma arduino
 
 2 - Codificação do firmware utilizando a plataforma Arduino
 
 3 - Desenvolvimento do hardware utilizando a ferramenta da autodesk Eagle.
+
+4 - Desenvolvimento de case de proteção do hardware
 
 ## O projeto da placa de circuito impresso contém:
 
@@ -33,5 +35,7 @@ O dispositivo também é capaz de realizar a voltametria cíclica, experimento q
 
 1 - Utilizar de um display TFT touch para plotar gráficos e mostrar mais informações sobre a voltametria cíclica, bem como melhorar a interação entre o operador e hardware
 
-2 - Utilizar um chip de comunicação GSM para que os dados sejam enviados em tempo real para a nuvem e lá contenha todas as informações coletadas pelo operador, eliminando assim, o uso do cartão SD
+2 - Utilizar um chip de comunicação GSM para que os dados sejam enviados em tempo real para a nuvem e lá contenha todas as informações coletadas pelo operador, eliminando assim, o uso do cartão SD.
+
+3 - Melhorias do case de proteção da placa
 
