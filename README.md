@@ -1,4 +1,4 @@
-#SaltDetector_Lais-UFRN
+# SaltDetector_Lais-UFRN
 
 Projeto foi feito como parte da seleção para bolsista do Laboratório de Inovação Tecnológica em Saúde.
 Este projeto consiste em um hardware capaz de identificar a presença de sal ou açúcar em água. Para isso o projeto foi dividido em 3 partes
@@ -9,7 +9,7 @@ Este projeto consiste em um hardware capaz de identificar a presença de sal ou 
 
 3 - Desenvolvimento do hardware utilizando a ferramenta da autodesk Eagle.
 
-##O projeto da placa de circuito impresso contém:
+## O projeto da placa de circuito impresso contém:
 
 1 - Microcontrolador atmega328p, sendo o cérebro do sistema.
 
@@ -29,7 +29,7 @@ O Hardware desenvolvido é capaz de medir a condutividade da água por meio de u
 
 O dispositivo também é capaz de realizar a voltametria cíclica, experimento que consiste em enviar uma onda triangular de tensão e observar os valores de tensão e corrente nos eletrodos da célula Por meio do sensor de corrente embutido no hardware pode-se medir a corrente que flui pelo eletrodo de trabalho e o conversor A/D do chip atmeg328p junto com os amplificadores operacionais obtém o valor da tensão sobre o eletrodo de referência e o eletrodo de trabalho. Após a varredura, duas informações são mostradas no LCD, que são os picos de corrente e tensão durante o experimento. Há um slot para cartão SD que guarda todos os valores em um arquivo csv, cujo nome é a data e horário da voltametria. Com esse arquivo pode-se exportar as informações e gerar gráficos para análises posteriores
 
-##Melhorias para o projeto.
+## Melhorias para o projeto.
 
 1 - Utilizar de um display TFT touch para plotar gráficos e mostrar mais informações sobre a voltametria cíclica, bem como melhorar a interação entre o operador e hardware
 
